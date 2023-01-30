@@ -1,0 +1,36 @@
+.h + p {
+  color: red;
+}
+.h,
+#hudai {
+  font-style: italic;
+}
+* {
+  text-align: center;
+}
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(105, 108, 255);
+}
+a:active {
+  color: blue;
+}
+a.highlight:hover {
+  color: crimson;
+  font-size: 20px;
+}
+
+div p.highlight:hover {
+  color: rgb(24, 25, 49);
+  font-size: 20px;
+}
+div img:hover {
+  width: 800px;
+}
+
+div:hover p {
+  display: block;
+}
